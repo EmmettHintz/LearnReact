@@ -27,7 +27,7 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-//testing
+
   return (
     <div class>
       <h2>Expense Application</h2>
