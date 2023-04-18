@@ -30,7 +30,7 @@ const App = () => {
   ];
 
   return (
-    <div class>
+    <div>
       <h2>Expense Application</h2>
       <div className="expenses">
         <Expenses items={expenses} />
