@@ -7,10 +7,11 @@ import "./ExpenseItem.css";
 // parameter will be an object that holds all the passed in values as key:value pairs
 const ExpenseItem = (props) => {
   const [title, setTitle] = useState(props.title);
+  console.log('ExpenseItem Function Evaluated by React');
 
   const clickHandler = () => {
     setTitle("Updated!");
-    // console.log("updated!");
+    console.log(title);
   };
 
   return (
